@@ -18,10 +18,11 @@
 ```
 # c. Créer la base de données initiale
 Exécutez ce qui suit sur votre hôte de base de données. 
-
+```
 # mysql -uroot -p 
-
+```
 mot de passe
+
 ```
 mysql> create database zabbix character set utf8 collate utf8_bin;
 mysql> create user zabbix@localhost identified by 'password';
