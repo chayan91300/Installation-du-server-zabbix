@@ -13,9 +13,9 @@
 ```
 
 # b. Installer le serveur Zabbix, l’interface, l’agent
+```
  # apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-agent`
-
-
+```
 # c. Créer la base de données initiale
 Exécutez ce qui suit sur votre hôte de base de données. 
 
