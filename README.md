@@ -1,4 +1,7 @@
+![logo](https://github.com/chayan91300/Installation-du-server-zabbix/blob/master/zabbix.png)
+
 # Installer et configurer le serveur Zabbix
+
 
 `sudo apt-get install language-pack-fr`
 
