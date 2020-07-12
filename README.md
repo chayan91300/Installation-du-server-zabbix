@@ -6,12 +6,11 @@
 `sudo apt-get install language-pack-fr`
 
 # a. Installer le référentiel Zabbix 
-
- # wget https://repo.zabbix.com/zabbix/5.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_5.0-1+focal_all.deb
+```
+# wget https://repo.zabbix.com/zabbix/5.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_5.0-1+focal_all.deb
 # dpkg -i zabbix-release_5.0-1+focal_all.deb
 # apt update 
-
-`
+```
 
 # b. Installer le serveur Zabbix, l’interface, l’agent
  # apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-agent`
