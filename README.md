@@ -46,6 +46,7 @@ DBPassword=password`
 
 ```
 Edit file: nano /etc/zabbix/apache.conf, décompresser et définir le bon fuseau horaire pour vous. 
+```
 
 # php_value date.timezone Europe/Riga (région de votre choix)
 |                     |      |
@@ -58,7 +59,7 @@ Edit file: nano /etc/zabbix/apache.conf, décompresser et définir le bon fuseau
 |                     |      |
 |                     |      |
 
-```
+
 
 
 # f. Démarrer les processus du serveur et de l’agent Zabbix
